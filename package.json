@@ -1,0 +1,25 @@
+{
+  "name": "arrays-diff",
+  "version": "1.0.0",
+  "description": "find different from two array and return an new array",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git//"
+  },
+  "keywords": [
+    "nodejs",
+    "array"
+  ],
+  "author": "haoj",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "mocha": "^3.5.3"
+  }
+}
